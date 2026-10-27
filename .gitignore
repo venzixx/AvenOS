@@ -1,0 +1,55 @@
+# Rust build artifacts
+target/
+**/target/
+Cargo.lock.bak
+
+# Bootable disks and binary images
+*.img
+*.bin
+*.iso
+*.vmdk
+*.qcow2
+*.ppm
+/*.png
+!assets/*.png
+/*.qoi
+
+# Logs
+*.log
+serial.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Sensitive information & credentials
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.kdbx
+id_rsa*
+id_ed25519*
+secrets/
+
+# Scratch & temporary development artifacts
+scratch/
+.system_generated/
+step821_shell.rs

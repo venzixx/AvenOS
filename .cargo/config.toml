@@ -1,0 +1,2 @@
+[build]
+# Default to host for runner, but kernel builds explicitly with target

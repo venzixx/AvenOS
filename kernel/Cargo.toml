@@ -1,0 +1,14 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bootloader_api = "0.11.17"
+spin = "0.12.3"
+uart_16550 = "0.3.2"
+x86_64 = "0.15.2"
+raw-cpuid = "10.7.0"
+pic8259 = "0.11.0"
+pc-keyboard = "0.9.0"
+font8x8 = { version = "0.3.1", default-features = false, features = ["unicode"] }
